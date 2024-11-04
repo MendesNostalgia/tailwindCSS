@@ -13,26 +13,48 @@
     /* Estilizando o título */
     h1 {
         @apply text-4xl font-bold;
+        /* Estilizando a fonte do título */
+        font-family: 'Arial', sans-serif;
+        /* Estilizando a cor da fonte */
+        color: #333;
+        /* Estilizando o alinhamento do texto */
+        text-align: center;
+        /* Estilizando a fonte do título */
+                font-weight: bold;
+        /* Estilizando a fonte do título */
+        font-style: italic;
+        /* Estilizando a fonte do título */
+        font-size: 32px;
     }
     
     /* Estilizando a frase */
     p {
         @apply text-sm text-gray-500;
+        /* Estilizando a fonte do título */
+        font-family: 'Arial', sans-serif;
+        /* Estilizando a cor da fonte */
+        color: #333;
+        /* Estilizando o alinhamento do texto */
+        text-align: center;
     }
-    
-    /* Estilizando o background dos quadrados */
-   .bg-red-500 {
 
-    /* Animação de rotação */
-    animation: rotate 2s infinite linear;
+    /* Estilizando as cores */
+    .flex {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: row;
+        gap: 40px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        padding: 200px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        animation: rotate 2s linear;
     }
-    
-    /* Animação de rotação */
-    @keyframes rotate {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-    }
-</style>
+
+    /* Estilizando as cores */
+      </style>
 
 
 <body>
@@ -44,6 +66,12 @@
         <div class="ml-4 w-32 h-32 bg-blue-500 rounded-full"></div>
         <div class="ml-4 w-32 h-32 bg-green-500 rounded-full"></div>
         <div class="ml-4 w-32 h-32 bg-yellow-500 rounded-full"></div>
+        <div class="ml-4 w-32 h-32 bg-purple-500 rounded-full"></div>
+        <div class="ml-4 w-32 h-32 bg-pink-500 rounded-full"></div>
+        <div class="ml-4 w-32 h-32 bg-teal-500 rounded-full"></div>
+        <div class="ml-4 w-32 h-32 bg-gray-500 rounded-full"></div>
+        <div class="ml-4 w-32 h-32 bg-orange-500 rounded-full"></div>
+        <div class="ml-4 w-32 h-32 bg-indigo-500 rounded-full"></div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/tailwindcss@latest/dist/tailwind.min.css"></script>
     <script src="script.js"></script>
